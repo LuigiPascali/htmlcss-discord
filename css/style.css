@@ -12,7 +12,61 @@
     GENERAL
 */
 
-body{
-    font-family: 'Lato', sans-serif;
+
+/* 
+    HEADER
+*/
+
+header {
+    background-color: #3161E0;
+    font-size: 1.3em;
 }
-    
+
+.header-row1 { 
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+}
+
+.link-bar{
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+}
+
+.link-bar ul > * {
+    margin: 0 10px 0 10px;
+    display: inline;
+}
+
+.link-bar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.link-bar > *:hover {
+    text-decoration: underline;
+}
+
+.logo, .login {
+    width: 20% ;
+    padding: 10px;
+}
+
+.login {
+    text-align: right;
+}
+
+.login > a {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.login a:hover {
+    color: #95d0fc;
+}
